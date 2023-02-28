@@ -44,7 +44,7 @@
   display: flex;
   justify-content:flex-start;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   width: 90%;
   height: 25rem;
   background: lightgray;
@@ -53,7 +53,6 @@
 .Modal-title{
   display: flex;
   justify-content: center;
-  align-self: center;
   width: 30%;
   background: none;
   font-weight: 700;
@@ -66,7 +65,6 @@
 .Modal-content {
   display: flex;
   justify-content: center;
-  align-self: center;
   color:#282c34;
   background: wheat;
   width: fit-content;
