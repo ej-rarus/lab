@@ -1,4 +1,8 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -36,6 +40,37 @@
   padding-left: 20px;
 }
 
+.Modal-wrapper{
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  align-content: center;
+  width: 90%;
+  height: 25rem;
+  background: lightgray;
+}
+
+.Modal-title{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 30%;
+  background: none;
+  font-weight: 700;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: white;
+}
+
+.Modal-content {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color:#282c34;
+  background: wheat;
+  width: fit-content;
+}
 
 @keyframes App-logo-spin {
   from {
