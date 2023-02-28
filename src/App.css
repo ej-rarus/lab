@@ -5,6 +5,10 @@
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -52,6 +56,7 @@
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .Logo {
   display: flex;
   text-align: center;
@@ -84,6 +89,37 @@
 .User-menu {
   display: flex;
 }
+=======
+.Modal-wrapper{
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 25rem;
+  background: lightgray;
+}
+
+.Modal-title{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  background: none;
+  font-weight: 700;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: white;
+}
+
+.Modal-content {
+  display: flex;
+  justify-content: center;
+  color:#282c34;
+  background: wheat;
+  width: fit-content;
+}
+>>>>>>> 4980d191ca528bf275d30f46957b65041557cf56
 
 @keyframes App-logo-spin {
   from {
