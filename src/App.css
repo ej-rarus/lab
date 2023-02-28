@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 .App {
   text-align: center;
 }
@@ -30,12 +36,54 @@
 
 .Home-nav {
   display: flex;
-  background: beige;
+  background: black;
+  justify-content:space-between;
+  align-items: center;
   width: 100%;
-  color: black;
+  height: 2.5rem;
+  color: white;
   padding-left: 20px;
+  text-decoration: none;
 }
 
+.Just-button {
+  background: #61dafb;
+  color: blue;
+  cursor: pointer;
+}
+
+.Logo {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.Menu-wrapper {
+  display: flex;
+  justify-content:right;
+  width: fit-content;
+  margin-right: 3rem;
+}
+
+.Menu {
+  display: flex;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.User-sys-menu-wrapper {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+
+.User-menu {
+  display: flex;
+}
 
 @keyframes App-logo-spin {
   from {
